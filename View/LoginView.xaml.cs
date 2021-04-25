@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,11 +18,14 @@ namespace WPFBase.View
     /// <summary>
     /// LoginView.xaml 的交互逻辑
     /// </summary>
-    public partial class LoginView : Window
+    public partial class LoginView : ViewBase
     {
         public LoginView()
         {
             InitializeComponent();
+ 
         }
+
+
     }
 }
